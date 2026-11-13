@@ -1,4 +1,4 @@
-# Node.js & EJS Practice Project
+# Node.js & EJS Practice
 
 A multi-page web application built to practice backend routing, server-side rendering, and serving static assets using Node.js, Express, and Embedded JavaScript (EJS).
 
@@ -34,7 +34,7 @@ node_ejs/
 
 ## Installation & Setup
 
-To run this project locally, follow these steps:
+To run these practice codes locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
@@ -61,9 +61,9 @@ To run this project locally, follow these steps:
 5. **View the application:**
    Open your browser and navigate to `http://localhost:3000` (or the port specified in your `index.js` file).
 
-## Project Learnings
+## Learnings
 
-Building this project provided hands-on experience with:
+ these practice provided me hands-on experience with:
 
 * Setting up a basic Express server and defining routes.
 * Configuring Express to use EJS as the view engine (`app.set('view engine', 'ejs')`).
