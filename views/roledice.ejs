@@ -1,0 +1,21 @@
+<%- include("includes/head.ejs") %>
+
+<body>
+    
+    <!-- <h1> Dice gave value : 
+     <%#  Math.floor(Math.random()*6)+1  %> 
+    </h1> -->
+    <!-- <h1>Dice gave value :  <%#  num %> </h1> -->
+    <!-- pass kora key value object object num ejs diye print korsi-->
+    <h1>Dice gave value : <%= diceVal %></h1> 
+
+    <%  if(diceVal ==6){ %>
+         <h2>Nice! R0ll dice again</h2>
+        <% } %>
+         <%- include("includes/footer.ejs") %>
+</body>
+</html>
+<!-- 
+ if(diceVal ==6){
+    <h2>Nice! R0ll diec again</h2>
+ } -->
